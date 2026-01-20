@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Hood
+    given-names: Anthony Scott
+title: "Gaia Protocol: GPU Spectral Navier–Stokes Solver"
+version: 1.1.0
+date-released: 2026-01-20
+license: MIT
+url: https://github.com/YOUR_USERNAME/gaia-protocol

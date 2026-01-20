@@ -1,0 +1,4 @@
+numpy>=1.21.0
+cupy-cuda11x>=10.0.0
+h5py>=3.6.0
+matplotlib>=3.5.0

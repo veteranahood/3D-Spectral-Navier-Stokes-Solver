@@ -1,6 +1,6 @@
-# Gaia Protocol: GPU-Accelerated Spectral Navier–Stokes Solver
+# HOOD Protocol: GPU-Accelerated Spectral Navier–Stokes Solver
 
-Gaia Protocol is a GPU-accelerated spectral solver for the 3D incompressible Navier–Stokes equations using a Leray projection to enforce incompressibility at machine precision.
+HOOD Protocol is a GPU-accelerated spectral solver for the 3D incompressible Navier–Stokes equations using a Leray projection to enforce incompressibility at machine precision.
 
 The solver is designed for high-resolution turbulence experiments and emphasizes numerical stability, energy conservation, and spectral accuracy.
 

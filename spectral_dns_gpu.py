@@ -20,7 +20,7 @@ dt = 0.001       # Time Step
 steps = 1000     # Simulation Duration
 nu = 0.002       # Viscosity (Low = Turbulent)
 
-print(f"Initializing Gaia 3D Solver: {N}x{N}x{N} | Viscosity: {nu}")
+print(f"Initializing Hood 3D Solver: {N}x{N}x{N} | Viscosity: {nu}")
 
 # --- SPECTRAL GRID SETUP ---
 k = 2 * cp.pi * cp.fft.fftfreq(N, L/N)

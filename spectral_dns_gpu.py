@@ -1,5 +1,5 @@
 """
-Gaia Protocol: 3D Spectral Navier-Stokes Solver (GPU)
+Hood Protocol: 3D Spectral Navier-Stokes Solver (GPU)
 Author: Anthony Scott Hood
 License: MIT
 Description: High-performance Pseudo-Spectral solver for the 3D Incompressible 

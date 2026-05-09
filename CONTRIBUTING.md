@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for considering contributing to Gaia Protocol.
+Thank you for considering contributing to Hood Protocol.
 
 ## How to Contribute
 - Fork the repository

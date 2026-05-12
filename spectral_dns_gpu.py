@@ -134,9 +134,9 @@ print(f"Simulation Complete. Time: {total_time:.2f}s")
 # --- SAVE DATA ---
 print("Saving 3D Turbulence Data to HDF5...")
 u_final = cp.asnumpy(cp.real(cp.fft.ifftn(u_hat, axes=(0,1,2))))
-with h5py.File('gaia_turbulence_3d.h5', 'w') as f:
+with h5py.File('hood_turbulence_3d.h5', 'w') as f:
     f.create_dataset('velocity', data=u_final)
     f.attrs['Author'] = 'Anthony Scott Hood'
-    f.attrs['Description'] = 'Gaia Protocol 3D Turbulence'
+    f.attrs['Description'] = 'Hood Protocol 3D Turbulence'
 
 print("Done.")
